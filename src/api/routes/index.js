@@ -15,7 +15,6 @@ router.use('/docs', express.static('docs'));
 router.use('/user', userRoutes);
 
 router.get('/', (req, res) => {
-  console.log('ㅇㅅㅇ')
   res.render('index');
 })
 module.exports = router;
